@@ -4,7 +4,7 @@ import psycopg2
 class Database:
     """
     Class is used to update 
-    postgreSQL database
+    postgreSQL database in django
     """
     __conn = None
     __cursor = None
