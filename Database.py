@@ -2,7 +2,10 @@ import psycopg2
 
 
 class Database:
-
+    """
+    Class is used to update 
+    postgreSQL database
+    """
     __conn = None
     __cursor = None
 
